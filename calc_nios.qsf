@@ -1,0 +1,159 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
+# Date created = 11:40:24  December 12, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		calc_nios_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:40:23  DECEMBER 12, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.1.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+set_global_assignment -name QSYS_FILE calculator_final.qsys
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_output_all.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_onchip_memory2_0.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_test_bench.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_oci_test_bench.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_mult_cell.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_debug_slave_wrapper.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_debug_slave_tck.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu_debug_slave_sysclk.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0_cpu.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_nios2_gen2_0.v
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_rsp_mux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_rsp_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_rsp_demux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_rsp_demux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_router_003.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_router_002.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_router_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_router.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_cmd_mux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_cmd_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_cmd_demux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0_cmd_demux.sv
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_mm_interconnect_0.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_jtag_uart_0.v
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/calculator_final_irq_mapper.sv
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_input_3.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/calculator_final_input_1.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/altera_reset_synchronizer.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/altera_reset_controller.v
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_traffic_limiter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_slave_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_slave_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_reorder_memory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_master_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_master_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+set_global_assignment -name SYSTEMVERILOG_FILE calculator_final/synthesis/submodules/altera_merlin_arbitrator.sv
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/altera_avalon_st_pipeline_base.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/altera_avalon_sc_fifo.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/calculator_final.v
+set_global_assignment -name VERILOG_FILE top1.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/bin2bcd.v
+set_global_assignment -name VERILOG_FILE calculator_final/synthesis/submodules/LED7.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AD26 -to input_3
+set_location_assignment PIN_AB26 -to input_4
+set_location_assignment PIN_AC25 -to input_5
+set_location_assignment PIN_AB25 -to input_6
+set_location_assignment PIN_AA23 -to input_1[0]
+set_location_assignment PIN_Y24 -to input_1[2]
+set_location_assignment PIN_AA22 -to input_1[1]
+set_location_assignment PIN_Y23 -to input_1[3]
+set_location_assignment PIN_AC24 -to input_2[0]
+set_location_assignment PIN_AB24 -to input_2[1]
+set_location_assignment PIN_AB23 -to input_2[2]
+set_location_assignment PIN_AA24 -to input_2[3]
+set_location_assignment PIN_E21 -to output_all[0]
+set_location_assignment PIN_E22 -to output_all[1]
+set_location_assignment PIN_E25 -to output_all[2]
+set_location_assignment PIN_E24 -to output_all[3]
+set_location_assignment PIN_H21 -to output_all[4]
+set_location_assignment PIN_G20 -to output_all[5]
+set_location_assignment PIN_G22 -to output_all[6]
+set_location_assignment PIN_G21 -to output_all[7]
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name BDF_FILE top.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AC28 -to clk_led
+set_location_assignment PIN_G18 -to ones_led[0]
+set_location_assignment PIN_F22 -to ones_led[1]
+set_location_assignment PIN_E17 -to ones_led[2]
+set_location_assignment PIN_L26 -to ones_led[3]
+set_location_assignment PIN_L25 -to ones_led[4]
+set_location_assignment PIN_J22 -to ones_led[5]
+set_location_assignment PIN_H22 -to ones_led[6]
+set_location_assignment PIN_M24 -to tens_led[0]
+set_location_assignment PIN_Y22 -to tens_led[1]
+set_location_assignment PIN_W21 -to tens_led[2]
+set_location_assignment PIN_W22 -to tens_led[3]
+set_location_assignment PIN_W25 -to tens_led[4]
+set_location_assignment PIN_U23 -to tens_led[5]
+set_location_assignment PIN_U24 -to tens_led[6]
+set_location_assignment PIN_AC27 -to clk_bcd
+set_location_assignment PIN_Y2 -to clk_50
+set_global_assignment -name VERILOG_FILE output_files/LED7_inputs.v
+set_location_assignment PIN_AA19 -to "input-2-LED[1]"
+set_location_assignment PIN_AG21 -to "input-2-LED[2]"
+set_location_assignment PIN_AH21 -to "input-2-LED[3]"
+set_location_assignment PIN_AE19 -to "input-2-LED[4]"
+set_location_assignment PIN_AF19 -to "input-2-LED[5]"
+set_location_assignment PIN_AE18 -to "input-2-LED[6]"
+set_location_assignment PIN_AA17 -to input_1_LED[0]
+set_location_assignment PIN_AA16 -to input_1_LED[2]
+set_location_assignment PIN_AB16 -to input_1_LED[1]
+set_location_assignment PIN_AB15 -to input_1_LED[4]
+set_location_assignment PIN_AB17 -to input_1_LED[3]
+set_location_assignment PIN_AA15 -to input_1_LED[5]
+set_location_assignment PIN_AC17 -to input_1_LED[6]
+set_location_assignment PIN_AB19 -to "input-2-LED[0]"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

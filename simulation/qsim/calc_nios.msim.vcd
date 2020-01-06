@@ -1,0 +1,678 @@
+$comment
+	File created using the following command:
+		vcd file calc_nios.msim.vcd -direction
+$end
+$date
+	Thu Dec 12 14:13:24 2019
+$end
+$version
+	ModelSim Version 10.3c
+$end
+$timescale
+	1ps
+$end
+
+$scope module bin2bcd_vlg_vec_tst $end
+$var reg 8 ! bin [7:0] $end
+$var reg 1 " clk1 $end
+$var wire 1 # ones [3] $end
+$var wire 1 $ ones [2] $end
+$var wire 1 % ones [1] $end
+$var wire 1 & ones [0] $end
+$var wire 1 ' tens [3] $end
+$var wire 1 ( tens [2] $end
+$var wire 1 ) tens [1] $end
+$var wire 1 * tens [0] $end
+$var wire 1 + sampler $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 tens[0]~output_o $end
+$var wire 1 3 tens[1]~output_o $end
+$var wire 1 4 tens[2]~output_o $end
+$var wire 1 5 tens[3]~output_o $end
+$var wire 1 6 ones[0]~output_o $end
+$var wire 1 7 ones[1]~output_o $end
+$var wire 1 8 ones[2]~output_o $end
+$var wire 1 9 ones[3]~output_o $end
+$var wire 1 : clk1~input_o $end
+$var wire 1 ; bin[4]~input_o $end
+$var wire 1 < bin[7]~input_o $end
+$var wire 1 = bin[5]~input_o $end
+$var wire 1 > bin[6]~input_o $end
+$var wire 1 ? bcd~0_combout $end
+$var wire 1 @ bcd~1_combout $end
+$var wire 1 A bcd~2_combout $end
+$var wire 1 B bin[3]~input_o $end
+$var wire 1 C bcd~3_combout $end
+$var wire 1 D bin[2]~input_o $end
+$var wire 1 E bcd~4_combout $end
+$var wire 1 F bcd~5_combout $end
+$var wire 1 G bcd~6_combout $end
+$var wire 1 H bcd~7_combout $end
+$var wire 1 I bin[1]~input_o $end
+$var wire 1 J bcd~8_combout $end
+$var wire 1 K bcd~9_combout $end
+$var wire 1 L bcd~10_combout $end
+$var wire 1 M bcd~11_combout $end
+$var wire 1 N bcd~12_combout $end
+$var wire 1 O bcd~13_combout $end
+$var wire 1 P bcd~14_combout $end
+$var wire 1 Q bcd~15_combout $end
+$var wire 1 R bcd~16_combout $end
+$var wire 1 S bcd~17_combout $end
+$var wire 1 T bcd~18_combout $end
+$var wire 1 U bcd~19_combout $end
+$var wire 1 V bcd~20_combout $end
+$var wire 1 W bin[0]~input_o $end
+$var wire 1 X bcd~21_combout $end
+$var wire 1 Y bcd~22_combout $end
+$var wire 1 Z bcd~23_combout $end
+$var wire 1 [ bcd [11] $end
+$var wire 1 \ bcd [10] $end
+$var wire 1 ] bcd [9] $end
+$var wire 1 ^ bcd [8] $end
+$var wire 1 _ bcd [7] $end
+$var wire 1 ` bcd [6] $end
+$var wire 1 a bcd [5] $end
+$var wire 1 b bcd [4] $end
+$var wire 1 c bcd [3] $end
+$var wire 1 d bcd [2] $end
+$var wire 1 e bcd [1] $end
+$var wire 1 f bcd [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+0&
+0%
+0$
+0#
+0*
+0)
+0(
+0'
+x+
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+04
+05
+06
+07
+08
+09
+1:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+1M
+1N
+0O
+0P
+0Q
+0R
+1S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+z^
+z]
+z\
+z[
+$end
+#10000
+0"
+0+
+0:
+#20000
+1"
+1+
+1:
+#25000
+0"
+0+
+0:
+#35000
+1"
+1+
+1:
+#40000
+b10 !
+b110 !
+b1110 !
+b11110 !
+1I
+1D
+1B
+1;
+0+
+1J
+1C
+1?
+1X
+1G
+1F
+1Y
+0S
+0J
+0X
+1K
+1T
+0Y
+#45000
+0"
+1+
+0:
+#55000
+1"
+0+
+1:
+1a
+1b
+12
+13
+1*
+1)
+#60000
+0"
+1+
+0:
+#70000
+1"
+0+
+1:
+#80000
+0"
+1+
+0:
+#90000
+1"
+0+
+1:
+#115000
+0"
+1+
+0:
+#120000
+1"
+0+
+1:
+#130000
+0"
+1+
+0:
+#135000
+1"
+0+
+1:
+#150000
+0"
+1+
+0:
+#160000
+1"
+0+
+1:
+#165000
+0"
+1+
+0:
+#170000
+1"
+0+
+1:
+#190000
+0"
+1+
+0:
+#195000
+1"
+0+
+1:
+#200000
+0"
+1+
+0:
+#205000
+1"
+0+
+1:
+#230000
+0"
+1+
+0:
+#235000
+1"
+0+
+1:
+#240000
+0"
+1+
+0:
+#250000
+1"
+0+
+1:
+#260000
+b11100 !
+b10100 !
+b100 !
+0"
+0I
+0B
+0;
+1+
+0:
+0C
+0?
+1Z
+0K
+0G
+0F
+1S
+1J
+0Z
+0T
+1Y
+#265000
+1"
+0+
+1:
+1d
+0a
+0b
+02
+03
+18
+0*
+0)
+1$
+#270000
+b0 !
+0"
+0D
+1+
+0:
+0J
+0Y
+#280000
+1"
+0+
+1:
+0d
+08
+0$
+#285000
+0"
+1+
+0:
+#290000
+1"
+0+
+1:
+#305000
+0"
+1+
+0:
+#310000
+1"
+0+
+1:
+#315000
+0"
+1+
+0:
+#320000
+1"
+0+
+1:
+#330000
+0"
+1+
+0:
+#335000
+1"
+0+
+1:
+#340000
+0"
+1+
+0:
+#350000
+1"
+0+
+1:
+#375000
+0"
+1+
+0:
+#380000
+1"
+0+
+1:
+#390000
+0"
+1+
+0:
+#400000
+1"
+0+
+1:
+#415000
+0"
+1+
+0:
+#420000
+1"
+0+
+1:
+#425000
+0"
+1+
+0:
+#430000
+1"
+0+
+1:
+#440000
+0"
+1+
+0:
+#445000
+1"
+0+
+1:
+#450000
+0"
+1+
+0:
+#455000
+1"
+0+
+1:
+#460000
+0"
+1+
+0:
+#470000
+1"
+0+
+1:
+#475000
+0"
+1+
+0:
+#480000
+1"
+0+
+1:
+#485000
+0"
+1+
+0:
+#490000
+1"
+0+
+1:
+#495000
+0"
+1+
+0:
+#510000
+1"
+0+
+1:
+#515000
+0"
+1+
+0:
+#525000
+1"
+0+
+1:
+#530000
+0"
+1+
+0:
+#540000
+1"
+0+
+1:
+#550000
+0"
+1+
+0:
+#565000
+1"
+0+
+1:
+#575000
+0"
+1+
+0:
+#580000
+1"
+0+
+1:
+#590000
+0"
+1+
+0:
+#605000
+1"
+0+
+1:
+#610000
+0"
+1+
+0:
+#620000
+1"
+0+
+1:
+#625000
+0"
+1+
+0:
+#630000
+1"
+0+
+1:
+#645000
+0"
+1+
+0:
+#680000
+1"
+0+
+1:
+#685000
+0"
+1+
+0:
+#690000
+1"
+0+
+1:
+#695000
+0"
+1+
+0:
+#705000
+1"
+0+
+1:
+#710000
+0"
+1+
+0:
+#720000
+1"
+0+
+1:
+#725000
+0"
+1+
+0:
+#730000
+1"
+0+
+1:
+#740000
+0"
+1+
+0:
+#755000
+1"
+0+
+1:
+#760000
+0"
+1+
+0:
+#780000
+1"
+0+
+1:
+#790000
+0"
+1+
+0:
+#795000
+1"
+0+
+1:
+#800000
+0"
+1+
+0:
+#805000
+1"
+0+
+1:
+#820000
+0"
+1+
+0:
+#825000
+1"
+0+
+1:
+#830000
+0"
+1+
+0:
+#840000
+1"
+0+
+1:
+#845000
+0"
+1+
+0:
+#860000
+1"
+0+
+1:
+#875000
+0"
+1+
+0:
+#890000
+1"
+0+
+1:
+#900000
+0"
+1+
+0:
+#915000
+1"
+0+
+1:
+#920000
+0"
+1+
+0:
+#930000
+1"
+0+
+1:
+#935000
+0"
+1+
+0:
+#945000
+1"
+0+
+1:
+#950000
+0"
+1+
+0:
+#955000
+1"
+0+
+1:
+#960000
+0"
+1+
+0:
+#975000
+1"
+0+
+1:
+#980000
+0"
+1+
+0:
+#985000
+1"
+0+
+1:
+#990000
+0"
+1+
+0:
+#1000000
